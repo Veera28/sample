@@ -1,3 +1,4 @@
+version: '1.0'
 stages:
 - prepare
 - yesPleaseDo
@@ -57,4 +58,4 @@ steps:
      steps:
      - name: deployToProdNow
        on:
-       - denied +
+       - denied
